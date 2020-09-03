@@ -1,4 +1,3 @@
-
 window.addEventListener('keypress',(e)=>{
     let dataKey = e.key.toUpperCase().charCodeAt()+'';
     const target = document.querySelector(`div[data-key="${dataKey}"]`);
